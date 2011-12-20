@@ -1,0 +1,9 @@
+<div class="row">
+  <section id='body_content' > 
+  <%=raw @page.content_for(:body) %>
+  </section> 
+</div>
+
+<% content_for :javascripts do %>
+    <% javascript_include_tag('orbit.js') %>
+<% end %>

@@ -1,0 +1,2 @@
+$(window).load ->
+    $('#featured').orbit()
