@@ -1,0 +1,9 @@
+ul.vcard {
+  float: right;
+}
+
+#share_this {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
