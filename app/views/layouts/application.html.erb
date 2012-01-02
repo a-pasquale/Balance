@@ -7,7 +7,7 @@
     <%= render :partial => '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container" class="container">
       <div class="row">
-        <div class="eight columns centered">
+        <div class="ten columns centered">
           <header id="header">
             <%= render :partial => '/refinery/header' -%>
           </header>
@@ -21,5 +21,13 @@
       </div>
     </div>
     <%= render :partial => '/refinery/javascripts' %>
+    <div id="share_this">
+      <p>Share:</p>
+      <span  class='st_twitter_large' ></span><br /><span  class='st_facebook_large' ></span><br /><span  class='st_email_large' ></span>
+    </div>
+    <script type="text/javascript">
+      var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher:'714a56ee-4b86-4ea5-a50c-a1064240d801'});</script>
   </body>
 </html>
