@@ -1,6 +1,9 @@
 <div class="row">
-  <section id='slider_content'>
+   <section id='slider_content' class='eight columns'>
     <%=raw @page.content_for(:slider) %>
+  </section>
+  <section id='slider_side_body_content' class="four columns'>
+    <%= raw @page.content_for(:slide) %>
   </section>
 </div>
 <div class="row">
