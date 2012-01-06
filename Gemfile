@@ -35,6 +35,7 @@ group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
+gem 'i18n-js', :git => 'git://github.com/fnando/i18n-js.git'
 gem "refinerycms", :git => "git://github.com/resolve/refinerycms.git"
  
 #  group :development, :test do
