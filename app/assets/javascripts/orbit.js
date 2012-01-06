@@ -1,3 +1,6 @@
-     $(window).load(function() {
-                $('#featured').orbit();
-                     });
+$(window).load(function() {
+  $('#featured').orbit({
+    animation: 'fade',
+    directionalNav: false,
+  });
+});
