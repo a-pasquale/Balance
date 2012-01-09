@@ -1,7 +1,7 @@
 ul.vcard {
   float: right;
   border: 0;
-  border-right: 1px solid #CDE;
+  padding: 0;
 }
 
 #share_this {
@@ -56,9 +56,62 @@ ul.vcard {
 
 #page {
   margin-top: -3px;
-  padding: 2em;
   border-left: 1px solid #CDE;
   border-right: 1px solid #CDE;
   box-shadow: 0px 10px 15px #aaa;
+}
+
+#side_body_content ul {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+#side_body_content p {
+  padding-left: 1em;
+}
+
+#slider_side_body_content p {
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+#body_content {
+  padding-top: 15px;
+}
+
+#body_content p, #body_content h3 {
+  padding: 0 15px;
+}
+
+#body_content li {
+  margin-left: 2em;
+}
+
+footer {
+  text-align: center;
+  margin: 2em;
+}
+
+blockquote {
+  position: relative;
+  padding-left: 170px;
+  margin: 15px;
+  border: 0;
+}
+
+#body_content blockquote p {
+  padding-left: 0;
+}
+
+blockquote:before {
+  content:"";
+  position: absolute;
+     top:0;
+        bottom:0;
+           left:0;
+              right:0;
+  z-index:-1;
+  background:url(quotation_marks_left.jpg) top left no-repeat;
+  opacity:0.2;
 }
 
