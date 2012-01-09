@@ -1,5 +1,7 @@
 ul.vcard {
   float: right;
+  border: 0;
+  border-right: 1px solid #CDE;
 }
 
 #share_this {
@@ -41,11 +43,21 @@ ul.vcard {
 #menu ul {
   border: 0;
   border-bottom: solid 1px #ccddee;
-  margin: 0 0 30px 0;
-  height: 43px;
+  margin: 0;
 }
 
 #menu li {
   border: 0;
+}
+
+#menu li.selected {
+  bottom: -2px;
+}
+
+#page {
+  margin-top: -3px;
+  border-left: 1px solid #CDE;
+  border-right: 1px solid #CDE;
+  box-shadow: 0px 10px 15px #aaa;
 }
 
