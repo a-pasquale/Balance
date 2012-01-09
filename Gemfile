@@ -53,6 +53,7 @@ end
 # Add i18n support (optional, you can remove this if you really want to but it is advised to keep it).
 gem 'refinerycms-i18n',   '~> 2.0.0', :git => 'git://github.com/parndt/refinerycms-i18n.git'
 gem "zurb-foundation", :group => :assets
+gem 'dalli'
 # Specify additional Refinery CMS Engines here (all optional):
 #  gem 'refinerycms-blog', :git => 'git://github.com/resolve/refinerycms-blog.git', :branch => 'rails-3-1'
 #  gem 'refinerycms-inquiries', :git => 'git://github.com/resolve/refinerycms-inquiries.git', :branch => 'rails-3-1'
