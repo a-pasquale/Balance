@@ -32,12 +32,18 @@ ul.vcard {
   padding: 7px 18px 9px;
   font-size: 1.3em;
   color: #555;
-  background: none;
-  border: none;
+  border: 0px solid #CDE;
+  border-left: 1px;
+  border-right: 1px;
+  border-top: 1px;
+  border-radius: 13px 0px 0px 0px;
   display: block;
   width: auto;
   height: 29px;
-  margin: 0 -1px 0 0;
+  margin: 0 -1px 0 5px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #eee,  #ccc); /* for firefox 3.6+ */ 
 }
 
 #menu ul {
