@@ -25,25 +25,26 @@ ul.vcard {
   width: auto;
   padding: 8px 9px;
   line-height: 30px;
+  box-shadow: 3px -2px 5px #ddd;
   border-radius: 14px 0px 0px;
 }
 
 #menu li a {
-  padding: 7px 18px 9px;
+  padding: 3px 10px 12px;
   font-size: 1.3em;
   color: #555;
-  border: 0px solid #CDE;
-  border-left: 1px;
-  border-right: 1px;
-  border-top: 1px;
+  border-left: 1px solid #CDE;
+  border-right: 1px solid #CDE;
+  border-top: 1px solid #CDE;
   border-radius: 13px 0px 0px 0px;
+  box-shadow: inset 3px 0px 5px #ddd;
   display: block;
   width: auto;
   height: 29px;
   margin: 0 -1px 0 5px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #eee,  #ccc); /* for firefox 3.6+ */ 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeeee', endColorstr='#dddddd'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #eee,  #ddd); /* for firefox 3.6+ */ 
 }
 
 #menu ul {
