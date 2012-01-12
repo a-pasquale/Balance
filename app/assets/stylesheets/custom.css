@@ -20,12 +20,12 @@ ul.vcard {
   margin: 0 10px;
   position: relative;
   top: -5px;
-  height: 30px;
+  height: 31px;
   display: block;
   width: auto;
   padding: 8px 9px;
   line-height: 30px;
-  box-shadow: 3px -2px 5px #ddd;
+  box-shadow: none;
   border-radius: 14px 0px 0px;
 }
 
@@ -40,7 +40,7 @@ ul.vcard {
   box-shadow: inset 3px 0px 5px #ddd;
   display: block;
   width: auto;
-  height: 29px;
+  height: 30px;
   margin: 0 -1px 0 5px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeeee', endColorstr='#dddddd'); /* for IE */
   background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd)); /* for webkit browsers */
