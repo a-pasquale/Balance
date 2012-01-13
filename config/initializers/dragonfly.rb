@@ -7,7 +7,7 @@ app.configure_with(:heroku, 'elytra')
 if Rails.env.production?
   app.configure do |c|
     c.datastore = Dragonfly::DataStorage::S3DataStore.new(
-      :bucket_name => 'my-bucket-name',
+      :bucket_name => 'elytra',
       :access_key_id => ENV['S3_KEY'],
       :secret_access_key => ENV['S3_SECRET']
     )
