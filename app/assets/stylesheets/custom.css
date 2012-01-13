@@ -26,7 +26,6 @@ ul.vcard {
 
 .nav-bar {
   background: none;
-  height: 25px;
 }
 
 #menu li.selected a {
@@ -35,6 +34,7 @@ ul.vcard {
   background: white;
   border-top: 3px solid #55bbee;
   border-top: 3px solid #2C4099;
+  height: 27px;
   line-height: 33px;
   box-shadow: inset 0px 5px 7px #ddd;
 }
