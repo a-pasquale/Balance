@@ -1,3 +1,12 @@
+body {
+  background: url('vertical_cloth.png') repeat top right;
+}
+
+#header {
+  background: #fff;
+  box-shadow: 0px 10px 15px #000;
+}
+
 ul.vcard {
   float: right;
   border: 0;
@@ -10,46 +19,38 @@ ul.vcard {
   top: 50%;
 }
 
+#menu {
+  background: #B4E4FA;
+  margin-top: -5px;
+}
+
+.nav-bar {
+  background: none;
+  height: 25px;
+}
+
 #menu li.selected a {
   font-weight: bold;
   color: #333;
   background: white;
-  border-left: 1px solid #ccddee;
-  border-right: 1px solid #ccddee;
   border-top: 3px solid #55bbee;
-  margin: 0 10px;
-  position: relative;
-  top: -5px;
-  height: 31px;
-  display: block;
-  width: auto;
-  padding: 8px 9px;
-  line-height: 30px;
-  box-shadow: none;
-  border-radius: 14px 0px 0px;
+  border-top: 3px solid #2C4099;
+  line-height: 33px;
+  box-shadow: inset 0px 5px 7px #ddd;
 }
 
 #menu li a {
   padding: 3px 10px 12px;
   font-size: 1.3em;
   color: #555;
-  border-left: 1px solid #CDE;
-  border-right: 1px solid #CDE;
-  border-top: 1px solid #CDE;
-  border-radius: 13px 0px 0px 0px;
-  box-shadow: inset 3px 0px 5px #ddd;
   display: block;
   width: auto;
-  height: 30px;
-  margin: 0 -1px 0 5px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeeee', endColorstr='#dddddd'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #eee,  #ddd); /* for firefox 3.6+ */ 
+  height: 25px;
+  line-height: 40px;
 }
 
 #menu ul {
   border: 0;
-  border-bottom: solid 1px #ccddee;
   margin: 0;
 }
 
@@ -57,15 +58,13 @@ ul.vcard {
   border: 0;
 }
 
-#menu li.selected {
-  bottom: -2px;
+.nav-bar li {
+  border: 0;
 }
 
 #page {
-  margin-top: -3px;
-  border-left: 1px solid #CDE;
-  border-right: 1px solid #CDE;
-  box-shadow: 0px 10px 15px #aaa;
+  background: #fff;
+  box-shadow: 0px 10px 15px #000;
 }
 
 #side_body_content ul {
