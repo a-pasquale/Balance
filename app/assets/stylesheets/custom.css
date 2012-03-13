@@ -2,6 +2,10 @@ body {
   background: url('polaroid.png') repeat top right;
 }
 
+h1, h2, h3, h4 {
+  color: rgba(0,0,0,0.5);
+}
+
 #header {
   background: #fff;
   box-shadow: 0px 10px 15px #000;
@@ -117,7 +121,7 @@ blockquote:before {
   left:0;
   right:0;
   background:url(quotation_marks_left.jpg) top left no-repeat;
-  opacity:0.2;
+  opacity:0.1;
 }
 
 button {
@@ -140,10 +144,40 @@ div.flex-video {
   margin-right: 15px;
 }
 
+.button {
+  padding: 9px 0px 11px;
+  width: 100%;
+}
+
+#side_body_content .panel {
+  margin-left: 0;
+}
+
+#home_side_body_content p {
+  padding-left: 10px;
+}
+
+#home_side_body_content h4 {
+  margin-top:10px;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+
+#side_body_content p {
+  padding: 0;
+}
+
 iframe {
   max-width: 100%;
 }
 
 #side_body_content dd {
   margin-bottom: 15px;
+}
+
+div.fbConnectWidgetTopmost {
+  border: 0;
+}
+div.fb-like-box {
+  left: -10px;
 }
