@@ -104,7 +104,7 @@ footer {
 
 blockquote {
   position: relative;
-  padding-left: 170px;
+  padding-left: 20%;
   margin: 15px;
   border: 0;
 }
@@ -113,14 +113,11 @@ blockquote {
   padding-left: 0;
 }
 
-blockquote:before {
-  content:"";
-  position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:url(quotation_marks_left.jpg) top left no-repeat;
+.blockquote_before {
+  float: left;
+  margin-top:10px;
+  margin-left: 10px;
+  width:20%;
   opacity:0.1;
 }
 
@@ -175,9 +172,11 @@ iframe {
   margin-bottom: 15px;
 }
 
-div.fbConnectWidgetTopmost {
-  border: 0;
-}
 div.fb-like-box {
   left: -10px;
+}
+
+#slider_side_body_content div.fb-like-box {
+  left: 0px;
+  max-width:100%;
 }
