@@ -150,6 +150,10 @@ div.flex-video {
   margin-left: 0;
 }
 
+#home_side_body_content p, #home_side_body_content div {
+  padding-right: 10px;
+}
+
 #home_side_body_content p {
   padding-left: 10px;
 }
@@ -164,6 +168,10 @@ div.flex-video {
   padding: 0;
 }
 
+#side_body_content h3, #side_body_content table, #side_body_content dl {
+  margin-left: 20px;
+}
+
 iframe {
   max-width: 100%;
 }
@@ -174,9 +182,14 @@ iframe {
 
 div.fb-like-box {
   left: -10px;
+  min-height: 70px;
 }
 
 #slider_side_body_content div.fb-like-box {
   left: 0px;
   max-width:100%;
+}
+
+.flex-video {
+  margin-right: 20px;
 }
