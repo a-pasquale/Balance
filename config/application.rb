@@ -47,4 +47,5 @@ module Balance
     config.assets.version = '1.0'
 
     config.middleware.insert 0, 'Dragonfly::Middleware', :images
+  end
 end
